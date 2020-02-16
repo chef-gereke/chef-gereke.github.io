@@ -60,3 +60,7 @@ ul.contact-information li a .text {
 .impressum-container {
     margin-bottom: 1.25rem;
 }
+
+.restaurant-name {
+    font-style: italic;
+}
