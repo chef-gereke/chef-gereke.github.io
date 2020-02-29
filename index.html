@@ -31,7 +31,7 @@
     <section id="banner">
         <div class="content">
             <header class="major special">
-                <img id="logo" src="images/logo.png">
+                <img id="logo" data-src="images/logo.webp" class="lazyload">
             </header>
             <ul class="actions special">
                 <li><a href="#contact" class="button primary wide scrolly">Kontakt aufnehmen</a></li>
@@ -49,7 +49,9 @@
             </header>
             <div class="spotlights">
                 <section>
-                    <div class="image"><img src="images/Koch-4.jpg" alt=""/></div>
+                    <div class="image">
+                        <img data-src="images/Koch-4.webp" class="lazyload" alt=""/>
+                    </div>
                     <div class="content">
                         <header class="major">
                             <h3>Ihr Koch</h3>
@@ -71,7 +73,9 @@
                     </div>
                 </section>
                 <section style="margin-top: 3rem;">
-                    <div class="image"><img src="images/Koch-24.jpg" alt=""/></div>
+                    <div class="image">
+                        <img data-src="images/Koch-24.webp" class="lazyload" alt=""/>
+                    </div>
                     <div class="content">
                         <header class="major">
                             <h3>
@@ -126,7 +130,9 @@
                     </li>
                 </ul>
 
-                <span class="image"><img src="images/Koch-47.jpg" alt=""/></span>
+                <span class="image">
+                    <img data-src="images/Koch-47.webp" class="lazyload" alt=""/>
+                </span>
 
                 <ul>
                     <li>
@@ -166,7 +172,7 @@
                 <!-- 1 -->
                 <article data-position="center">
                     <div class="inner">
-                        <img src="images/Koch-61.jpg" alt="">
+                        <img src="images/Koch-61.webp" alt="">
                         <p class="description">
                             Entenbrust / Entenjus / Rote Beete / Selleriecremé
                         </p>
@@ -175,7 +181,7 @@
                 <!-- 2 -->
                 <article data-position="center">
                     <div class="inner">
-                        <img src="images/Koch-63.jpg" alt="">
+                        <img src="images/Koch-63.webp" alt="">
                         <p class="description">
                             Schokoladenkuchen mit flüssigem Kern / Johannisbeeren-Sorbet / Pistaziensponge Cake / Mascarponencremé
                         </p>
@@ -184,7 +190,7 @@
                 <!-- 3 -->
                 <article data-position="center">
                     <div class="inner">
-                        <img src="images/Koch-41.jpg" alt="">
+                        <img src="images/Koch-41.webp" alt="">
                         <p class="description">
                             Lammfilet / Granatapfelvinaigrette / Feldsalat
                         </p>
@@ -193,25 +199,25 @@
                 <!-- 4 -->
                 <article data-position="center">
                     <div class="inner">
-                        <img src="images/Koch-55.jpg" alt="">
+                        <img src="images/Koch-55.webp" alt="">
                     </div>
                 </article>
                 <!-- 5 -->
                 <article data-position="center">
                     <div class="inner">
-                        <img src="images/Koch-17.jpg" alt="">
+                        <img src="images/Koch-17.webp" alt="">
                     </div>
                 </article>
                 <!-- 6 -->
                 <article data-position="center">
                     <div class="inner">
-                        <img src="images/Koch-36.jpg" alt="">
+                        <img src="images/Koch-36.webp" alt="">
                     </div>
                 </article>
                 <!-- 7 -->
                 <article data-position="center">
                     <div class="inner">
-                        <img src="images/Koch-w-2.jpeg" alt="">
+                        <img src="images/Koch-w-2.webp" alt="">
                         <p class="description">
                             Carpaccio vom Staudensellerie / grüner Apfel / Ziegenkäsecreme / Wildkräuter / geröstete Haferflocken
                         </p>
@@ -220,27 +226,9 @@
                 <!-- 8 -->
                 <article data-position="center">
                     <div class="inner">
-                        <img src="images/Koch-w-3.jpeg" alt="">
+                        <img src="images/Koch-w-3.webp" alt="">
                         <p class="description">
                             Onsenei / Petersilienschaum / geschmorter Sellerie / Wildkräuter
-                        </p>
-                    </div>
-                </article>
-                <!-- 9 -->
-                <article data-position="center">
-                    <div class="inner">
-                        <img src="images/Koch-w-1.jpeg" alt="">
-                        <p class="description">
-                            Gebeizter Lachs / Birnen-Dill-Vinaigrette / Misomayo / grüner Spargel
-                        </p>
-                    </div>
-                </article>
-                <!-- 10 -->
-                <article data-position="center">
-                    <div class="inner">
-                        <img src="images/Koch-w-4.jpeg" alt="">
-                        <p class="description">
-                            Aalmousse im Soja-Fillinimantel / geräucherter Aal / eingelegter Apfel / Sauerrahmeis
                         </p>
                     </div>
                 </article>
@@ -305,6 +293,7 @@
 </div>
 
 <!-- Scripts -->
+<script src="assets/js/lazysizes.min.js" async></script>
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/jquery.dropotron.min.js"></script>
 <script src="assets/js/jquery.scrollex.min.js"></script>
