@@ -185,7 +185,11 @@ var settings = {
 				indicators[lastPos].removeClass('visible');
 
 			// Show new slide.
-			slides[pos].addClass('visible').addClass('top');
+			const slide = slides[pos];
+			const correspondingImage = slide.find('img');
+
+			slide.css('background-image', 'url("' + correspondingImage.attr('fakeSrc') + '")');
+			slide.addClass('visible').addClass('top');
 
 			if (options.indicators)
 				indicators[pos].addClass('visible');
@@ -218,9 +222,12 @@ var settings = {
 					$img = $slide.find('img');
 
 				// Slide.
-				$slide
-					.css('background-image', 'url("' + $img.attr('src') + '")')
-					.css('background-position', ($slide.data('position') ? $slide.data('position') : 'center'));
+				$slide.css('background-position', ($slide.data('position') ? $slide.data('position') : 'center'));
+
+				if (slides.length == 0) {
+					// first entry; load image directly
+					$slide.css('background-image', 'url("' + $img.attr('fakeSrc') + '")');
+				}
 
 				// Add to slides.
 				slides.push($slide);
