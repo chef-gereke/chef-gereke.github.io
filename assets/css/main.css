@@ -401,7 +401,7 @@ hr {
 
 header.major h1:after, header.major h2:after, header.major h3:after, header.major h4:after, header.major h5:after, header.major h6:after {
     background-color: #f54a6f;
-    background-image: url("../../images/overlay.png"), linear-gradient(90deg, rgba(245, 74, 111, 0), #debf55 90%);
+    background-image: url("../../images/overlay.webp"), linear-gradient(90deg, rgba(245, 74, 111, 0), #debf55 90%);
     background-size: auto, auto;
     background-repeat: repeat, no-repeat;
 }
@@ -2020,7 +2020,7 @@ input[type="button"].primary,
 button.primary,
 .button.primary {
     background-color: #f54a6f;
-    background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #debf55 80%);
+    background-image: url("../../images/overlay.webp"), linear-gradient(45deg, rgba(245, 74, 111, 0), #debf55 80%);
     background-size: auto, auto;
     background-repeat: repeat, no-repeat;
     box-shadow: 0 0.5rem 1.75rem 0 rgba(0, 0, 0, 0.25);
@@ -2255,7 +2255,7 @@ input[type="radio"] + label:before {
 input[type="checkbox"]:checked + label:before,
 input[type="radio"]:checked + label:before {
     background-color: #f54a6f;
-    background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #debf55 80%);
+    background-image: url("../../images/overlay.webp"), linear-gradient(45deg, rgba(245, 74, 111, 0), #debf55 80%);
     background-size: auto, auto;
     background-repeat: repeat, no-repeat;
     border-color: #f54a6f;
@@ -2768,7 +2768,7 @@ table.alt tbody tr td {
     background-color: #3a3a3a;
     color: #ffffff;
     background-color: #f54a6f;
-    background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #debf55 80%);
+    background-image: url("../../images/overlay.webp"), linear-gradient(45deg, rgba(245, 74, 111, 0), #debf55 80%);
     background-size: auto, auto;
     background-repeat: repeat, no-repeat;
 }
@@ -2842,7 +2842,7 @@ table.alt tbody tr td {
 .wrapper.style2 button.primary,
 .wrapper.style2 .button.primary {
     background-color: #f54a6f;
-    background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #debf55 80%);
+    background-image: url("../../images/overlay.webp"), linear-gradient(45deg, rgba(245, 74, 111, 0), #debf55 80%);
     background-size: auto, auto;
     background-repeat: repeat, no-repeat;
     box-shadow: 0 0.5rem 1.75rem 0 rgba(0, 0, 0, 0.25);
@@ -3407,7 +3407,7 @@ table.alt tbody tr td {
     -ms-justify-content: center;
     justify-content: center;
     background-attachment: fixed, fixed;
-    background-image: linear-gradient(90deg, rgba(58, 58, 58, 0.6), rgba(58, 58, 58, 0.6)), url("../../images/banner.jpg");
+    background-image: linear-gradient(90deg, rgba(58, 58, 58, 0.6), rgba(58, 58, 58, 0.6)), url("../../images/banner.webp");
     background-position: center, center;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
@@ -3448,7 +3448,7 @@ table.alt tbody tr td {
 #banner button.primary,
 #banner .button.primary {
     background-color: #f54a6f;
-    background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #debf55 80%);
+    background-image: url("../../images/overlay.webp"), linear-gradient(45deg, rgba(245, 74, 111, 0), #debf55 80%);
     background-size: auto, auto;
     background-repeat: repeat, no-repeat;
     box-shadow: 0 0.5rem 1.75rem 0 rgba(0, 0, 0, 0.25);
@@ -3692,7 +3692,7 @@ body {
     background-color: #3a3a3a;
     color: #ffffff;
     background-color: #f54a6f;
-    background-image: url("../../images/overlay.png"), linear-gradient(90deg, rgba(245, 74, 111, 0), #debf55 90%);
+    background-image: url("../../images/overlay.webp"), linear-gradient(90deg, rgba(245, 74, 111, 0), #debf55 90%);
     background-size: auto, auto;
     background-repeat: repeat, no-repeat;
     -moz-align-items: center;
@@ -3788,7 +3788,7 @@ body {
 
 #header.alt:before {
     background-color: #f54a6f;
-    background-image: url("../../images/overlay.png"), linear-gradient(90deg, rgba(245, 74, 111, 0), #debf55 90%);
+    background-image: url("../../images/overlay.webp"), linear-gradient(90deg, rgba(245, 74, 111, 0), #debf55 90%);
     background-size: auto, auto;
     background-repeat: repeat, no-repeat;
     content: '';
@@ -4038,7 +4038,7 @@ body.header-alt .dropotron.level-0 {
     padding-top: 14.75rem;
     padding: 8rem 0 6rem 0;
     background-attachment: fixed, fixed;
-    background-image: linear-gradient(90deg, rgba(58, 58, 58, 0.6), rgba(58, 58, 58, 0.6)), url("../../images/banner.jpg");
+    background-image: linear-gradient(90deg, rgba(58, 58, 58, 0.6), rgba(58, 58, 58, 0.6)), url("../../images/banner.webp");
     background-position: center, center;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
@@ -4165,7 +4165,7 @@ body.header-alt .dropotron.level-0 {
 
 #navPanel {
     background-color: #f54a6f;
-    background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(245, 74, 111, 0), #debf55 80%);
+    background-image: url("../../images/overlay.webp"), linear-gradient(45deg, rgba(245, 74, 111, 0), #debf55 80%);
     background-size: auto, auto;
     background-repeat: repeat, no-repeat;
     -moz-transform: translateX(20rem);

@@ -47,7 +47,7 @@ ul.contact-information li a .icon-container {
 
 ul.contact-information li a:hover .icon-container {
     background-color: #f54a6f;
-    background-image: url(../../images/overlay.png), linear-gradient(90deg, rgba(245, 74, 111, 0), #debf55 90%);
+    background-image: url(../../images/overlay.webp), linear-gradient(90deg, rgba(245, 74, 111, 0), #debf55 90%);
     background-size: auto, auto;
     background-repeat: repeat, no-repeat;
 
